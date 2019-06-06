@@ -1,5 +1,5 @@
 {
-  "name": "react-videocall",
+  "name": "gleetsycall",
   "version": "1.0.0",
   "description": "React VideoCall App",
   "main": " ",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emothek/videocall.git"
+    "url": "git+https://github.com/emothek/gleetsycall.git"
   },
   "engines": {
     "node": "8.11.3",
@@ -19,7 +19,7 @@
   "author": "Minh Son Nguyen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emothek/videocall/issues"
+    "url": "https://github.com/emothek/gleetsycall/issues"
   },
-  "homepage": "https://github.com/emothek/videocall#readme"
+  "homepage": "https://github.com/emothek/gleetsycall#readme"
 }
