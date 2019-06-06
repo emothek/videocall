@@ -16,11 +16,11 @@ class PeerConnection extends Emitter {
       to: this.friendID,
       candidate: event.candidate
     });
-    // this.pc.onaddstream = event => this.emit('peerStream', event.stream);
+    this.pc.onaddstream = event => this.emit('peerStream', event.stream);
     /*
     *     RTCpeetConnection.onaddstream is being deprecated 
     */
-    this.pc.ontrack = event => this.emit('peerStream', event.stream);
+    //this.pc.ontrack = event => this.emit('peerStream', event.stream);
 
 
     this.mediaDevice = new MediaDevice();
