@@ -9,8 +9,24 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 
 html {
 	min-width: 400px;
-	background: url("https://i.imgur.com/k8Efnbp.jpg") center no-repeat;
-	
+	background: url("https://i.imgur.com/k8Efnbp.jpg");
+	  /* Background image is centered vertically and horizontally at all times */
+	  background-position: center center;
+  
+	  /* Background image doesn't tile */
+	  background-repeat: no-repeat;
+	  
+	  /* Background image is fixed in the viewport so that it doesn't move when 
+		 the content's height is greater than the image's height */
+	  background-attachment: fixed;
+	  
+	  /* This is what makes the background image rescale based
+		 on the container's size */
+	  background-size: cover;
+	  
+	  /* Set a background color that will be displayed
+		 while the background image is loading */
+	  background-color: #464646;
 }
 
 body {
@@ -18,6 +34,22 @@ body {
 	padding: 0px 20px;
 }
 
+
+.main-container {
+	max-width: 50%;
+	margin-top: 2em;
+	padding-bottom: 2em;
+	background: rgba(#888888, 0.6);
+	border-radius: 2em;
+	-webkit-box-shadow: 10px 10px 43px -2px rgba(0,0,0,0.38);
+	-moz-box-shadow: 10px 10px 43px -2px rgba(0,0,0,0.38);
+	box-shadow: 10px 10px 43px -2px rgba(0,0,0,0.38);
+}
+
+.navbar-header {
+	display: contents;
+
+}
 .navbar-brand {
 	font-size: 1.5em;
 	img {
@@ -42,11 +74,11 @@ body {
 }
 
 .fa-video-camera {
-	background-color: #00af97f7 ;
+    background-color: #b103c6f7 !important;
 }
 
 .fa-phone {
-	background-color: #03af00f7;
+	background-color: #03af00f7 !important;
 }
 
 @import "main-window";
