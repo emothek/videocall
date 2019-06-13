@@ -15,7 +15,7 @@ const configs = addBaseConfig({
         use: ['style-loader', 'css-loader?minimize=true', 'sass-loader']
       },
       {
-        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        test: /\.(jpg|png|woff|woff2|eot|ttf|svg)$/,
         use: [
           {
             loader: 'file-loader',
