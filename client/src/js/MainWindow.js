@@ -23,14 +23,14 @@ class MainWindow extends Component {
             Hi, your ID is
             <input type="text" className="txt-clientId" value={clientId} />
           </h3>
-          <h4>Get started by calling a friend below</h4>
+          <h4>Get started by calling your 'Teacher' below</h4>
         </div>
         <div>
           <input
             type="text"
             className="txt-clientId"
             spellCheck={false}
-            placeholder="Your friend ID"
+            placeholder="Teacher's ID"
             onChange={event => friendID = event.target.value}
           />
           <div>
