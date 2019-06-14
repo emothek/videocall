@@ -8,7 +8,6 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 @import "shared/base";
 
 html {
-	min-width: 400px;
 	background: url("https://i.imgur.com/k8Efnbp.jpg");
 	  /* Background image is centered vertically and horizontally at all times */
 	  background-position: center center;
@@ -36,8 +35,7 @@ body {
 
 
 .main-container {
-	max-width: 50%;
-	margin-top: 2em;
+	margin-top: 4em;
 	padding-bottom: 2em;
 	background: rgba(#888888, 0.6);
 	border-radius: 2em;
